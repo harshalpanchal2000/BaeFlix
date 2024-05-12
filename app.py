@@ -25,7 +25,7 @@ def generate_response(user_input):
 
 # Main function to run the Streamlit app
 def main():
-    st.title("YourApp")
+    st.title("BaeFlix")
     st.write("AI: " + prompt_template.generate("intro"))
     user_input = st.text_input("You:")
     if user_input:
