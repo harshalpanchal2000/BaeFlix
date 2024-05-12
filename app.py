@@ -1,5 +1,5 @@
 import streamlit as st
-from langchain import LangChain
+from langchain.langchain import LangChain
 from prompttemplate import PromptTemplate
 import json
 
